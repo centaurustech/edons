@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'DitedRegular';
+    src: url('fonts/Dited-webfont.eot');
+    src: url('fonts/Dited-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Dited-webfont.woff') format('woff'),
+         url('fonts/Dited-webfont.ttf') format('truetype'),
+         url('fonts/Dited-webfont.svg#DitedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BitterRegular';
+    src: url('fonts/Bitter-Regular-webfont.eot');
+    src: url('fonts/Bitter-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Bitter-Regular-webfont.woff') format('woff'),
+         url('fonts/Bitter-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Bitter-Regular-webfont.svg#BitterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BitterItalic';
+    src: url('fonts/Bitter-Italic-webfont.eot');
+    src: url('fonts/Bitter-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Bitter-Italic-webfont.woff') format('woff'),
+         url('fonts/Bitter-Italic-webfont.ttf') format('truetype'),
+         url('fonts/Bitter-Italic-webfont.svg#BitterItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BitterBold';
+    src: url('fonts/Bitter-Bold-webfont.eot');
+    src: url('fonts/Bitter-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Bitter-Bold-webfont.woff') format('woff'),
+         url('fonts/Bitter-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Bitter-Bold-webfont.svg#BitterBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+  font-family:'FontAwesome';
+  src:url('fonts/fontawesome-webfont.eot?v=3.0.1');
+  src:url('fonts/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+  url('fonts/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+  url('fonts/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight:normal;
+  font-style:normal }
+  
+body{
+	font-family: Cambria;
+	font-size:16px;
+}
+
+section#pitch > h2{
+	font-size: 32px;
+	font-family:BitterBold;
+	color: #bfa4ae;
+	margin:0;
+}
+
+section#pitch > p{
+	text-align:left;
+}
+
+section#conteneur-compteur h2{
+	font-size: 32px;
+	font-family:BitterRegular;
+	margin-top:0;
+}
+
+h3, header{
+	font-size: 20px;
+	font-family:BitterRegular;
+}
+
+nav, div#newsletter > p{
+	font-size:20px;
+	color:#6d233c;
+}
+
+span.Faw {
+	font-family:FontAwesome;
+	font-size:12px;
+	color:black;
+}
+
+div#conteneur-slider > div div ul {
+	font-size:23px;
+	color:white;
+}
+
+div#conteneur-slider > div div h3 {
+	font-size:24px;
+	color:white;
+}
+
+div#conteneur-slider > div div span.voir-plus a{
+	color:white;
+	font-size:32px;
+	font-weight:bold;
+}
+
+ul#navigation-slider li{
+	font-size:20px;
+	font-family: BitterBold;
+}
+
+li{
+	list-style-type: none;
+}
+
+.bloc{
+	font-family:DitedRegular;
+	font-size:130px;
+	margin:0px;
+}
+
+section#conteneur-compteur > div#visible > h2, .bloc{
+	color:white;
+}
+
+div#description-compteur{
+	font-size:32px;
+	color:#6d233c;
+}
+
+span.en-rose{
+	color: #d63c6c;
+}
+
+strong{
+	color:#e183a5;
+}
+
+a{
+	text-decoration:none;
+	color:#6d233c;
+}
+
+a:hover {
+	color:#e183a5;
+}
+
+ul#navigation-slider a{
+	text-decoration:none;
+	color:#e183a5;
+}
+
+ul#navigation-slider li a:hover, ul#navigation-slider li.actif > a{
+	text-decoration:none;
+	color:#6d233c;
+}
+
+div#faq > h1, section#contact > h1{
+	color:#bfa4ae;
+	font-family:BitterRegular;
+}
+
+div#faq h2 span{
+	background-color:#6d233c;
+	color:white;
+	font-weight:normal;
+	padding:3px 3px 3px 3px;
+}
+
+div#faq h2{
+	margin-bottom:0px;	
+	padding:3px 3px 3px 0px;
+}
+
+div#faq h3 span{
+	background-color:#e183a5;
+	color:white;
+	font-weight: normal;
+	padding:3px 3px 3px 3px;
+}
+
+div#faq h3{
+	padding:3px 3px 3px 0px;
+}
+
+div#faq li:first-of-type h3{
+	margin-top:0px;
+}
+
+footer{
+	color:black;
+	font-size: 14px;
+}
+
+footer h3{
+	color:#6d233c;
+	margin-right:20px;
+}
+
+section#contact > p{
+	color: #6D233C;
+}
+
+form.news > input:last-of-type{
+  color: #ffffff;
+}
+
+body.faq-actif > header > section#header > nav > ul > li.faq-actif > a, body.contact-actif > header > section#header > nav > ul > li.contact-actif > a{
+	color:#e183a5;
+}
+
+div.dialog p{
+	font-size: 16px;
+	font-family: Cambria;
+}

@@ -1,0 +1,228 @@
+body{
+	min-width:900px;
+}
+
+ul{
+	padding:0px;
+	margin:0px;
+}
+
+header{
+	margin:0 auto;
+	padding:0 10px;
+}
+
+footer{
+	margin:0 auto;
+	margin-top:25px;
+	padding:10px 10px;
+}
+
+.corps{
+	padding:0 10px;
+}
+
+section#pitch,section#conteneur-compteur{
+	margin:0 auto;
+}
+
+section#slider{
+	width:940px;
+	margin:0 auto;
+}
+
+nav{
+	margin: 0 auto;
+	margin-bottom:40px;
+	width:595px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+nav > ul {
+	padding-bottom: 10px;
+}
+
+nav > ul li {
+	display:inline-block;
+	margin:0 6px;
+	vertical-align:middle;
+}
+
+div#newsletter {
+	display:inline-block;
+	margin:0;
+	vertical-align:top;
+	padding-top:7px;
+	margin-left:28px;
+}
+
+nav > ul li:nth-child(4){
+	margin-left:0px;
+}
+
+section#pitch, section#conteneur-compteur >  div#visible > div#compteur{
+	width:780px;
+	margin:0 auto;
+	text-align:center;
+}
+
+section#header{
+	width:780px;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+
+div#conteneur-slider{
+	margin-bottom:50px;
+	width:765px;
+}
+
+div#conteneur-slider, ul#navigation-slider, .bloc, div#description-compteur > ul li{
+	display:inline-block; 
+}
+
+div#conteneur-slider > div div h3{
+	padding:5px;
+	position:absolute;
+	top:18px;
+	left:0;
+}
+
+div#conteneur-slider > div div ul{
+	position:absolute;
+	top:80px;
+	left:30px;
+	padding:2px;
+}
+
+div#conteneur-slider > div div span.voir-plus a{
+	position:absolute;
+	bottom:15px;
+	right:8px;
+	height:30px;
+	width:30px;
+	background-image:url(images-interface/bouton-voirplus.png);
+	background-repeat:no-repeat;
+	display:block;
+}
+
+div#conteneur-slider > div div ul li span{
+	padding:0px 4px 0px 2px;
+}
+
+ul#navigation-slider{
+	width:175px;
+	margin-left: -4px;
+	vertical-align:top;
+}
+
+ul#navigation-slider li{
+	padding-top:27px;
+	padding-bottom:26px;
+	text-align:left;
+}
+
+div.div-footer{
+	display:inline-block;
+	vertical-align:middle;
+	padding-right:40px;
+	margin-right:41px;
+	height:140px;
+}
+
+div.div-footer:last-child{
+	padding-right:0px;
+	margin-right:0px;
+}
+
+section#conteneur-compteur h2, section#conteneur-compteur h3  {
+	width: 575px;
+	margin:20 auto;
+	margin-bottom:0px;
+	padding:5px;
+}
+
+div#description-compteur{
+	width:780px;
+	margin:0 auto;
+}
+
+div.bloc{
+	margin:0 23px;
+}
+
+a.logo{
+	display:block;
+	margin: 0 auto;
+	margin-bottom:15px;
+	width:196px;
+	height:191px;
+	text-align:center;
+}
+
+div.div-footer p{
+	width:262px;
+}
+
+div#mentions > h3{
+	width:181px;
+}
+
+footer > section{
+	width:940px;
+	margin:0 auto;
+}
+
+div#equipe > ul li{
+	margin: 10px 0;
+}
+
+.twitter, .facebook{
+	margin:0px;
+}
+
+form#contact > ul{
+	width:500px;
+	margin:25px auto 0px auto;
+}
+
+form#contact > ul li input, form#contact > ul li textarea{
+	width:500px;
+	margin:2px 0px;
+}
+
+form#contact > ul li textarea{
+	height:150px;
+}
+
+section#contact > h1, section#contact > p{
+	width:500px;
+	margin:auto;
+}
+
+form.news{
+	margin:0px;
+}
+
+div#newsletter > p{
+	margin-top:0px;
+	margin-bottom:10px;
+	padding-bottom:14px;
+	border-bottom: solid 4px #6d233c;
+}
+
+div#faq{
+	width:940px;
+	margin:0 auto;
+}
+
+div#texte-compteur-cacher{
+	width:780px;
+	margin: 0 auto;
+	text-align:center;
+}
+
+div#texte-compteur-cacher > a{
+	font-size: 24px;
+}

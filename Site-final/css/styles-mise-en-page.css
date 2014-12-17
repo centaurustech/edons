@@ -1,0 +1,245 @@
+ul{
+	padding:0px;
+	margin:0px;
+}
+
+header{
+	position:relative;
+	margin:0 auto;
+	margin-bottom:40px;
+	padding:0 10px;
+	width:960px;
+}
+
+footer{
+	margin:0 auto;
+	margin-top:25px;
+	padding:10px 10px;
+}
+
+div.corps{
+	margin:0 auto;
+	/*padding:0 10px;*/
+	width:960px;
+}
+
+nav{
+	margin: 0 auto;
+	margin-right:15px;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+header > div{
+	position: absolute;
+	top:40px;
+	right:0;
+	padding-right:10px;
+}
+
+div.info{
+	margin-bottom:20px;
+}
+
+div.info > ul li {
+	margin: 0 5px;	
+}
+
+div.info > ul li{
+	display:inline-block;
+	vertical-align:middle;
+}
+
+div.groupe_en-avant{
+	display:inline-block;
+	vertical-align:top;
+	margin: 0px 18px 20px 0px;
+}
+
+div.groupe_en-avant:last-child{
+	margin-right: 0px;
+}
+
+nav > ul {
+	padding-bottom: 10px;
+}
+
+nav > ul li {
+	display:inline-block;
+	margin:0 8px;
+	vertical-align:middle;
+}
+
+div.div-footer{
+	display:inline-block;
+	vertical-align:middle;
+	padding-right:40px;
+	margin-right:41px;
+	height:140px;
+}
+
+div.div-footer:last-child{
+	padding-right:0px;
+	margin-right:0px;
+}
+
+hgroup{
+	display:inline-block;
+	margin: 0 auto;
+	vertical-align:middle;
+}
+
+div.div-footer p{
+	width:262px;
+}
+
+div#mentions > h3{
+	width:181px;
+}
+
+footer > section{
+	width:940px;
+	margin:0 auto;
+}
+
+div#equipe > ul li{
+	margin: 10px 0;
+}
+
+div.corps h3{
+	padding:5px 0px 5px 0px;
+	border-bottom: 2px solid #543441;
+}
+
+section.module-projets h4, section.fiche-user h4{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+section.module-projets div.groupe_en-avant div.contenu_en-avant h5{
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding-bottom: 15px;
+}
+
+section.module-projets div.groupe_en-avant div.contenu_en-avant:nth-child(2) h5{
+	border-bottom: 1px solid #c7c6c6;
+}
+
+section.module-entreprises h4{
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #c7c6c6;
+}
+
+section.module-entreprises h5{
+	margin-top: 10px;
+	margin-bottom:15px;
+}
+
+section.module-projets div.groupe_en-avant div.contenu_en-avant.contenu_en-avant:nth-child(n+2){
+	padding:10;
+}
+
+section.module-entreprises div.groupe_en-avant div.contenu_en-avant.contenu_en-avant:nth-child(2){
+	padding:10;
+}
+
+section.fiche-user div.groupe_en-avant div.contenu_en-avant.contenu_en-avant:nth-child(n+2){
+	padding:10;
+}
+
+div#index section:nth-child(3){
+	width: 590px;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:58px;
+}
+
+div#index section:nth-child(4){
+	width:250px;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:58px;
+}
+
+section#connexion{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:76px;
+	width:400px;
+}
+
+section#inscription{
+	display:inline-block;
+	vertical-align:top;
+	width:480px;
+}
+
+.modif-suppr a{
+	margin: 0 5px
+}
+
+figure{
+	margin:0;
+	margin-right:100px;
+	width:300px;
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+}
+
+div.contenu_fiche{
+	display:inline-block;
+	vertical-align:top;
+	width:460px;	
+}
+
+figcaption:first-child{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+figcaption:last-child{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	text-align:center;
+}
+
+figcaption:last-child > a{
+	margin:5px;
+}
+
+div.groupe-commentaire{
+	display:inline-block;
+	vertical-align: top;
+	padding-left:100px;
+	border-left: 1px solid #C7C6C6;
+}
+
+form.form-commentaire{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:100px;
+	margin-top:55px;
+}
+
+div.contenu_fiche div.info div h4, div.contenu_fiche div.info div p{
+	display:inline-block;
+	vertical-align:middle;	
+}
+
+aside form div{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:20px;
+}
+
+body.entreprises-actif, body.fiche-user, body.associations-actif{
+	overflow-y:scroll;
+}

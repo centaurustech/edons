@@ -1,0 +1,256 @@
+#conteneur-slider{
+	height:249px;
+	background-image: url('images-interface/image-slider.jpg');
+	background-repeat:no-repeat;
+
+}
+
+#conteneur-slider > div div {
+    width:400px;
+    height:250px;
+    position:absolute;
+    top:0;
+    left:0;
+    
+    -webkit-transition: all 325ms ease-in-out;
+    -moz-transition: all 325ms ease-in-out;
+    -o-transition: all 325ms ease-in-out;
+    -ms-transition: all 325ms ease-in-out;
+    transition: all 325ms ease-in-out;
+}
+
+#conteneur-slider > div{
+	width:400px;
+    height:250px;
+    margin-left:300px;
+    overflow:hidden;
+    position:relative;
+}
+
+.slider .avant{
+    -webkit-transform: translateX(-410px);
+    -moz-transform: translateX(-410px);
+    -o-transform: translateX(-410px);
+    -ms-transform: translateX(-410px);
+    transform: translateX(-410px);
+}
+
+.slider .apres{
+    -webkit-transform: translateX(410px);
+    -moz-transform: translateX(410px);
+    -o-transform: translateX(410px);
+    -ms-transform: translateX(410px);
+    transform: translateX(410px);
+}
+
+.slider .courant{
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+html{
+	background: #fdf5f7;
+	background: -moz-linear-gradient(top,  #fdf5f7 0%, #f6d9e3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdf5f7), color-stop(100%,#f6d9e3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fdf5f7 0%,#f6d9e3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fdf5f7 0%,#f6d9e3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fdf5f7 0%,#f6d9e3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fdf5f7 0%,#f6d9e3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdf5f7', endColorstr='#f6d9e3',GradientType=0 ); /* IE6-9 */
+
+}
+
+nav > ul{
+	border-bottom: solid 4px #6d233c;
+}
+
+section#pitch > p{
+	margin:10px 0px;
+	padding:3px;
+}
+
+section#pitch div:first-of-type{
+	background-image: url(images-interface/pitch-haut.png);
+	background-repeat:no-repeat;
+	height:20px;
+	margin-top:10px;
+}
+
+section#pitch div:last-of-type{
+	background-image: url(images-interface/pitch-bas.png);
+	background-repeat:no-repeat;
+	height:20px;
+	margin-bottom:20px;
+}
+
+div#conteneur-slider > div div h3{
+	background-color: #ea1058;
+}
+
+div#conteneur-slider > div div ul li > span{
+	background-color:#e17a9c;
+}
+
+ul#navigation-slider li{
+	border: solid 1px #b19fa6;
+	background-color:white;
+	opacity:0.85;
+}
+
+ul#navigation-slider li.actif{
+	opacity:1;
+}
+
+ul#navigation-slider li a{
+	padding:27px 0px 26px 20px;
+	margin-left:10px;
+}
+
+ul#navigation-slider li:first-child > a{
+	border-left: solid 6px #EA1058;
+}
+
+ul#navigation-slider li:nth-child(2) > a{
+	border-left: solid 6px #D63C6C;
+}
+
+ul#navigation-slider li:last-child > a{
+	border-left: solid 6px #E183A5;
+}
+
+div#compteur{
+	background: #e080a3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e080a3 0%, #d64575 45%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e080a3), color-stop(45%,#d64575)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e080a3 0%,#d64575 45%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e080a3 0%,#d64575 45%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e080a3 0%,#d64575 45%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e080a3 0%,#d64575 45%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e080a3', endColorstr='#d64575',GradientType=0 ); /* IE6-9 */
+
+}
+
+div#description-compteur{
+	background-color: #d64575;
+	text-align:center;
+}
+
+div#description-compteur > ul li{
+	background-color: #e183a5;
+	width: 180px;
+	margin-right:3px;
+}
+
+div#description-compteur > ul li:first-child, div#description-compteur > ul li:last-child {
+	width: 204px;
+}
+
+div#description-compteur > ul li:first-child{
+	margin-left:0px;
+}
+
+section#conteneur-compteur > div#visible > h2 {
+	background-color: #533440;
+}
+
+a.logo{
+	display:block;
+	background-image: url(images-interface/logo-Edons.png);
+	background-repeat:no-repeat;
+	width:196px;
+	height:191px;
+}
+
+div.div-footer:nth-child(1), div.div-footer:nth-child(2), div.div-footer:nth-child(3){
+	border-right: 1px solid #bfa4ae;
+}
+
+footer{
+	border-top: 1px solid #bfa4ae;
+}
+
+.facebook > a{
+	display:block;
+	background-image: url(images-interface/facebook.png);
+	background-repeat:no-repeat;
+	width:37px;
+	height:36px;
+	margin:0px;
+}
+
+.twitter > a{
+	display:block;
+	background-image: url(images-interface/twitter.png);
+	background-repeat:no-repeat;
+	width:37px;
+	height:36px;
+	margin:0px;
+}
+
+.iutbm {
+	display:block;
+	background-image: url(images-interface/iutbm.jpg);
+	background-repeat:no-repeat;
+	width:133px;
+	height:38px;
+	margin:20px 0px 0px;
+}
+
+.ufc {
+	display:block;
+	background-image: url(images-interface/ufc.jpg);
+	background-repeat:no-repeat;
+	width:80px;
+	height:61px;
+	margin:5px 0px;
+}
+
+.ufc:hover, .iutbm:hover, .twitter > a:hover, .facebook > a:hover, a.logo:hover, span.voir-plus a:hover{
+	opacity:0.75;
+	-webkit-transition: opacity 250ms linear;
+	-o-transition: opacity 250ms linear;
+	-moz-transition: opacity 250ms linear;
+	transition: opacity 250ms linear;
+}
+
+form#contact input, form#contact textarea{
+  	border:1px solid black;
+  	padding: 3px;
+}
+
+form.news > input:first-of-type{
+	border:1px solid black;
+  	padding: 3px;
+  	width: 128px;
+}
+
+form.news > input:focus, form#contact input:focus, form#contact textarea:focus{
+	-webkit-box-shadow: 0px 0px 4px 1px #e183a5;
+	box-shadow: 0px 0px 4px 1px #e183a5;
+	outline: none;
+}
+
+form.news > input:last-of-type{
+  text-shadow: 1px 1px 5px #ffffff;
+  border:none;
+  background-color: #000000;
+  padding: 3px;
+  margin-left:-6px;
+}
+
+form.news > input:last-of-type:hover{
+  background-color: #e183a5;
+}
+
+
+form#contact > ul li:nth-child(4) > input{
+  border: solid black 1px;
+  padding: 3px;
+}
+
+form#contact > ul li:nth-child(4) > input:hover{
+	background-color:#e183a5;	
+}

@@ -1,0 +1,87 @@
+nav > ul{
+	border-bottom: solid 4px #6d233c;
+}
+
+a.logo{
+	display:block;
+	background-image: url(images-interface/logo-Edons.png);
+	background-repeat:no-repeat;
+	width:196px;
+	height:191px;
+}
+
+div.div-footer:nth-child(1), div.div-footer:nth-child(2), div.div-footer:nth-child(3){
+	border-right: 1px solid #bfa4ae;
+}
+
+footer{
+	border-top: 1px solid #bfa4ae;
+}
+
+.facebook > a{
+	display:block;
+	background-image: url(images-interface/facebook.png);
+	background-repeat:no-repeat;
+	width:37px;
+	height:36px;
+	margin:0px;
+}
+
+.twitter > a{
+	display:block;
+	background-image: url(images-interface/twitter.png);
+	background-repeat:no-repeat;
+	width:37px;
+	height:36px;
+	margin:0px;
+}
+
+.iutbm {
+	display:block;
+	background-image: url(images-interface/iutbm.jpg);
+	background-repeat:no-repeat;
+	width:133px;
+	height:38px;
+	margin:20px 0px 0px;
+}
+
+.ufc {
+	display:block;
+	background-image: url(images-interface/ufc.jpg);
+	background-repeat:no-repeat;
+	width:80px;
+	height:61px;
+	margin:5px 0px;
+}
+
+.ufc:hover, .iutbm:hover, .twitter > a:hover, .facebook > a:hover, a.logo:hover, span.voir-plus a:hover{
+	opacity:0.75;
+	-webkit-transition: opacity 250ms linear;
+	-o-transition: opacity 250ms linear;
+	-moz-transition: opacity 250ms linear;
+	transition: opacity 250ms linear;
+}
+
+form.news > input:first-of-type{
+	border:1px solid black;
+  	padding: 3px;
+  	width: 128px;
+}
+
+form.news > input:focus{
+	-webkit-box-shadow: 0px 0px 4px 1px #e183a5;
+	box-shadow: 0px 0px 4px 1px #e183a5;
+	outline: none;
+}
+
+form.news > input:last-of-type{
+  text-shadow: 1px 1px 5px #ffffff;
+  border:none;
+  background-color: #000000;
+  padding: 3px;
+  margin-left:-6px;
+}
+
+form.news > input:last-of-type:hover{
+  background-color: #e183a5;
+}
